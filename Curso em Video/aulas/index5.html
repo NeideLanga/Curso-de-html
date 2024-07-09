@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        div{
+            display: inline-block;
+            background-color: lightgray;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+
+        }
+        div:hover{
+            background-color: aqua;
+        }
+        p:hover{
+            color: lightcoral;
+
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: rgba(206, 96, 113, 0.733);
+            text-decoration: none;
+            font-weight: normal;
+
+        }
+        a:visited{
+            color: black;
+        }
+        a:hover{
+            color: rgb(255, 13, 154);
+            text-decoration: underline;
+        }
+        a:active{
+            color: indianred;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse sobre o texto abaixo.
+    </p>
+    <div id="01">01</div>
+    <div id="02">02</div>
+    <div id="03">03</div>
+    <h2>Personalizando Links</h2>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositorio GitHub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoem/ideo.com">Site de Curso em Video</a></li>
+    </ul>
+</body>
+</html>

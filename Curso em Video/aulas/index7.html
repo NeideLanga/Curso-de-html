@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #bfac95;
+            margin: 0px;
+        
+        }
+        header{
+            background-color: #bf8654;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+        }
+    
+        main{
+            background-color: #bf8654;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+        }
+        .paragrafo{
+            color: black;
+            font-style: italic;
+        }
+        nav{
+            background-color: #bfac95;
+            padding: 3px;
+           box-shadow: 1px 1px 4px black;
+        }
+        nav > a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color:#f2ae2e;
+        }
+        article{
+            background-color: #bfac95;
+            padding: 5px;
+            box-shadow: 1px 1px 4px black;
+        } 
+        article > aside{
+            background-color:#bf8654;
+
+        }
+        footer{
+            background-color:#59331d;
+            color: #f2ae2e;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+
+        }
+        footer > p{
+            margin:0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site: Grouping Tags</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p class="paragrafo">Vamos usar algumas tags semanticas</p>
+        </section>
+        <section>
+            <article>
+                <h2>Tags semanticas</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ea, soluta hic dicta earum, officiis vitae magnam nam libero illo mollitia tempore repellat expedita assumenda quaerat rerum eos excepturi error.</p>
+                <aside>
+                   Segundo Gustavo Guanabarra
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+      <p>Vimos algumas tags sematicas e Grouping tags</p>
+
+    </footer>
+    
+</body>
+</html>
