@@ -54,6 +54,9 @@ section{
     font-family: var(--font2);
     font-size: 3vw;
 }
+section > p{
+    padding-bottom: 0.5em;
+}
 section.normal{
     background-color: white;
     color: black;
@@ -61,11 +64,31 @@ section.normal{
 section.imagem{
     background-color: darkkhaki;
     color: white;
+    
+}
+section#img001{
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right center;
+
+}
+section#img002{
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right center;
+
+
 }
 section.imagem > p{
-    background-color: rgba(0, 0, 0, 0.212);
+    background-color: rgba(0, 0, 0, 0.247);
     display: inline-block;
     padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 0px rgba(255, 255, 255, 0.171);
 }
 
  footer{
